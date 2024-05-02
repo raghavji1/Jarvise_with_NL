@@ -1,0 +1,83 @@
+{
+    "intents":[
+
+
+        {
+            "tag":"greeting",
+            "patterns":[ "hello","hii","hey","wake up", "jarvi"," jinda ho","khan mar gye","mar gye kya"
+            ],
+            "responses":["hello sir", "how are you sir","always for you sir",
+            "Yahi hu sir", "hello", "Here's your Assistant"
+            ]
+        }, 
+        {
+            "tag":"breakup",
+            "patterns":[ "bye sir","bye","see you later","sleep", "exit"," tata"
+            ],
+            "responses":["bye sir", "always for you sir","good bye sir",
+             "see you again"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":[ "how are you","how you","are you fine","kaise ho", "are you fine"
+            ],
+            "responses":["cool sir", "perfect sir","i am fine sir",
+            "i'm good sir, how are you", "thank you sir I am fine"
+            ]
+        },
+        {
+            "tag":"idenity",
+            "patterns":[ "waht is your name","who are you","aap kon hai","your identity", "name of yours"
+
+            ],
+            "responses":["my name is Jarvis sir", "jarvis sir","this is jarvis here sir"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":[ "waht is current time","time btao","time","what is the time ", "kitni baj gyi hai bhiya"
+            ],
+            "responses":["time"]    
+        },
+        {
+            "tag":"date",
+        "patterns":[ "todays date","what is the date today","date","tarikh", "aaj ki tarikh kya hai","today's date"
+            ],
+            "responses":["date"
+            ]
+        },
+        {
+            "tag":"day",
+        "patterns":[ "todays day","what is the day today","day","war", "aaj konsa war hai","konsa din hai aaj","din","war"
+            ],
+            "responses":["day"
+            ]
+        }
+        ,
+        {
+            "tag":"wikipedia",
+        "patterns":[ "what is","about","wikipedia", "who is"
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+        "patterns":[ "google search","search","google", "find about"
+            ],
+            "responses":["google"
+            ]
+        },
+        {
+            "tag":"open_application",
+        "patterns":[ "app kholo","kholo","open", "application","app"
+            ],
+            "responses":["application"
+            ]
+        }
+
+
+    ]
+
+}
